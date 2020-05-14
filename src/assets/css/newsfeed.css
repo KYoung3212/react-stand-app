@@ -1,0 +1,103 @@
+.audio_container {
+    margin: 15% auto;
+}
+
+.audio_container:first-child {
+    margin: 10% auto 5%;
+}
+
+.title_text {
+    width: 80%;
+}
+
+.audio_title {
+    font-size: 1rem;
+}
+
+.audio_display {
+    padding-top: 1%;
+}
+
+.audio_title {
+    margin-bottom: 3%;
+}
+
+.audio_image {
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    /* text-decoration: none; */
+    color: black;
+}
+
+.audio-player {
+    border: 0.2px solid black
+}
+
+@media only screen and (min-width: 600px) {
+    .audio_container:first-child {
+        margin: 5% auto 7%;
+    }
+
+    .audio_container {
+        margin: 10% auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .desktop-menu .menu-item {
+        font-size: 1.2rem !important;
+    }
+    .row .newsfeed {
+        border-left: 1px solid grey;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 890px) {
+    .desktop-menu .menu-item {
+        font-size: 1.3rem !important;
+    }
+}
+
+@media (min-width: 1000px) {
+    .desktop-menu .menu-item {
+        font-size: 1.6rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop-menu {
+        display: none;
+    }
+}
+
+.justify-content-end {
+    width: 100% !important;
+}
+
+.desktop-menu {
+    position: fixed;
+    left: 0;
+    padding: 0;
+}
+
+.desktop-menu img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.desktop-menu .menu-item {
+    display: block;
+    color: rgb(241, 205, 112);
+    margin: auto;
+    font-size: 1.8rem;
+    padding-left: 10%;
+}
+
+.desktop-menu .menu-item:hover {
+    color: rgb(197, 168, 93);
+}
